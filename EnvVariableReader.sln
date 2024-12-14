@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{BCF001E7-6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{37D06190-E290-4DCD-87B0-763EE76EF3EF}"
 	ProjectSection(SolutionItems) = preProject
+		Deploy.md = Deploy.md
+		license = license
 		README.md = README.md
 	EndProjectSection
 EndProject

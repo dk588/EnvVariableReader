@@ -8,7 +8,21 @@
     <Description>Allow to retrieve environment variable. Also can be used to docker secret.</Description>
     <Title>Renaud58.EnvVariableReader</Title>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/dk588/EnvVariableReader</RepositoryUrl>
+    <PackageTags>Docker; environment variable; config</PackageTags>
+    <PackageLicenseFile>license</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\license">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <None Update="README.md">
